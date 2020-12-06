@@ -1,0 +1,36 @@
+html, body, section {
+  height: 100%; 
+}
+
+body {
+  background-color: rgb(169, 216, 255);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+div {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+}
+
+.container {
+  display: flex;
+}
+
+.left-panel {
+  background-color: rgb(180, 200, 255);
+  flex: 1; 
+  padding: 1rem; 
+}
+
+.right-panel {
+  background-color: rgb(148, 195, 255);
+  flex:1;
+  padding: 1rem; 
+}
+
+a:hover {
+  background-color: lightpink;
+}
